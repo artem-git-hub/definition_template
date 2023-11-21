@@ -1,0 +1,17 @@
+[
+    {
+        "template_name": "Base template",
+        "fields": {
+            "name": "text",
+            "email": "email",
+            "date": "date"
+        }
+    },
+    {
+        "template_name": "Base template 2",
+        "fields": {
+            "phone": "phone",
+            "date": "date"
+        }
+    }
+]

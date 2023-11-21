@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  mongo_app:
+    container_name: mongo_app
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    env_file:
+      - .env
+
+  fastapi_app:
+    container_name: fastapi_app
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    depends_on:
+      - mongo_app
+    env_file:
+      - .env
