@@ -6,7 +6,7 @@
 - docker  
 - docker-compose  
 
-1. Склонировать и зайти в дирректорию:
+1. Клонировать и зайти в директорию:
 ```shell
 git clone https://github.com/artem-git-hub/definition_template.git
 cd definition_template
